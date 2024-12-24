@@ -1,0 +1,24 @@
+#taskList div {
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+#taskList div:hover {
+    font-weight: 700;
+}
+
+#taskList span {
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
